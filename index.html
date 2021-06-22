@@ -523,9 +523,12 @@
                     </div>
                     <div class="list">
                         <ul id="listing">
-                            <li><a class="list-option one" onclick="show('cult');">Cultural</a></li>
-                            <li><a class="list-option two" onclick="show('tech');">Technical</a></li>
-                            <li><a class="list-option" onclick="show('sports');">Sports</a></li>
+                            <li><a class="list-option one check active" onclick="show('cult'); active('one');">Cultural</a>
+                            </li>
+                            <li><a class="list-option two check" onclick="show('tech'); active('two');">Technical</a>
+                            </li>
+                            <li><a class="list-option three check" onclick="show('sports'); active('three');">Sports</a>
+                            </li>
                         </ul>
                     </div>
                     <div id="item-1" class="overlay">
@@ -818,36 +821,43 @@
                         function off(id) {
                             document.getElementById(id).style.display = "none";
                         }
+                        var check = document.querySelectorAll('.check');
+                        Array.from(check).forEach(item => {
+                            item.addEventListener("click", () => {
+                                var selected = document.getElementsByClassName("active");
+                                selected[0].className = selected[0].className.replace(" active", "");
+                                item.className += " active";
+                            });
+                        });
                         function show(segment) {
-                            var cult=document.querySelectorAll('#cult');
-                            var tech=document.querySelectorAll('#tech');
-                            var sports=document.querySelectorAll('#sports');
-                            if(segment==='cult')
-                            {
-                                for(var i=0;i<cult.length;i++)
-                                    cult[i].style.display='inline-block';
-                                for(var i=0;i<tech.length;i++)
-                                    tech[i].style.display='none';
-                                for(var i=0;i<sports.length;i++)
-                                    sports[i].style.display='none';
+                            $(this).siblings('.list-option').removeClass('active');
+                            $(this).addClass('active');
+                            var cult = document.querySelectorAll('#cult');
+                            var tech = document.querySelectorAll('#tech');
+                            var sports = document.querySelectorAll('#sports');
+                            if (segment === 'cult') {
+                                for (var i = 0; i < cult.length; i++)
+                                    cult[i].style.display = 'inline-block';
+                                for (var i = 0; i < tech.length; i++)
+                                    tech[i].style.display = 'none';
+                                for (var i = 0; i < sports.length; i++)
+                                    sports[i].style.display = 'none';
                             }
-                            else if(segment==='tech')
-                            {
-                                for(var i=0;i<cult.length;i++)
-                                    cult[i].style.display='none';
-                                for(var i=0;i<tech.length;i++)
-                                    tech[i].style.display='inline-block';
-                                for(var i=0;i<sports.length;i++)
-                                    sports[i].style.display='none';
+                            else if (segment === 'tech') {
+                                for (var i = 0; i < cult.length; i++)
+                                    cult[i].style.display = 'none';
+                                for (var i = 0; i < tech.length; i++)
+                                    tech[i].style.display = 'inline-block';
+                                for (var i = 0; i < sports.length; i++)
+                                    sports[i].style.display = 'none';
                             }
-                            else
-                            {
-                                for(var i=0;i<cult.length;i++)
-                                    cult[i].style.display='none';
-                                for(var i=0;i<tech.length;i++)
-                                    tech[i].style.display='none';
-                                for(var i=0;i<sports.length;i++)
-                                    sports[i].style.display='inline-block';
+                            else {
+                                for (var i = 0; i < cult.length; i++)
+                                    cult[i].style.display = 'none';
+                                for (var i = 0; i < tech.length; i++)
+                                    tech[i].style.display = 'none';
+                                for (var i = 0; i < sports.length; i++)
+                                    sports[i].style.display = 'inline-block';
                             }
                         }
                     </script>
