@@ -43,19 +43,17 @@ a {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.959);
-    z-index: 2;
+    z-index: 60;
     cursor: pointer;
 }
 
 ul{
     list-style: none;
-    margin-left: 32%;
+    margin-top: 4%;
 }
 li {
-    padding-right: 10%;
     display: inline;
     text-align: center;
-    font-weight: 600;
 }
 .fas {
     padding: 4%;
@@ -68,7 +66,6 @@ li {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	width: 30%;
 	height: 280px;
     margin-left: 3%;
     margin-bottom: 3%;
@@ -78,8 +75,7 @@ li {
     height: 100%;
 }
 .hvrbox .hvrbox-layer_bottom {
-	display: block;
-    
+	display: block;    
 }
 .hvrbox .hvrbox-layer_top {
 	opacity: 0;
@@ -92,12 +88,13 @@ li {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.6);
 	color: #fff;
-	padding: 15px;
+	padding: 20px;
 	-moz-transition: all 0.4s ease-in-out 0s;
 	-webkit-transition: all 0.4s ease-in-out 0s;
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
+
 .hvrbox:hover .hvrbox-layer_top,
 .hvrbox.active .hvrbox-layer_top {
 	opacity: 1;
@@ -123,7 +120,7 @@ li {
 	padding-top: 2px;
 	display: none;
 }
-.hvrbox:active .hvrbox-text_mobile {
+.hvrbox.active .hvrbox-text_mobile {
 	display: block;
 }
 .hvrbox img {
@@ -133,19 +130,15 @@ li {
     transform: scale(1.3) rotate(25deg);
 }
 .top-section {
-   height: 30%;
+   height: 10%;
 }
 .top-section i {
-    margin: 1% 4%;
+    margin: 1% 10%;
     float: right;
-}
-.overlay-content {
-    margin-left: 55%;
-    margin-top: -30%;
-    width: 40%;
+    size: 10%;
 }
 .overlay-context {
-    font-size: medium;
+    font-size: medium;    
 }
 .field {
     color: rgb(238, 217, 95);
@@ -167,15 +160,112 @@ li {
     outline: none;
 }
 .overlay-view{
-    margin-left: 10%;
+    margin-left: 8%;
     height: 100%;
     width: 60%;
 }
-.overlay-view iframe {
-    height: 360px;
-    width: 520px;
-    margin-top: -10%;
+.list-option {
+    transition: .4s ease-in-out;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    font-size: small;
 }
+.list-option:hover {
+    border: 3px solid white;
+    padding: 1%;
+    position:inherit;
+    color: white;
+    cursor: pointer;
+}
+#listing{
+    word-wrap: normal;
+}
+@media (min-width: 310px) {
+    ul{
+        margin-left: 10px;
+        margin-right: 15px;
+        max-width: 400%;
+    }   
+    .one,.two {
+        margin-right: 1.8%;
+    }
+    .overlay-view iframe{
+        height: 160px;
+        width: 320px;
+    }  
+    .overlay-content{        
+        padding: 6% 6%;
+        word-wrap: normal;
+        height: 60%;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    ul{
+        margin-left: 140px;
+    }   
+    .one,.two {
+        margin-right: 2.5%;
+    }
+    .overlay-view iframe{
+        height: 360px;
+        width: 520px;
+    }  
+    .overlay-content{
+        width: 100%;
+        padding: 6% 4%;
+    }  
+    .hvrbox {
+        width: 540px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    ul{
+        margin-left: 100px;
+    }
+    .one,.two {
+        margin-right: 2.5%;
+    }
+    .overlay-view iframe{
+        height: 360px;
+        width: 520px;
+    }
+    .overlay-content{        
+        width: 100%;
+        padding: 6% 4%;
+    }
+    .hvrbox {
+        width: 540px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ul{
+        margin-left: 300px;
+    }
+    .overlay-view iframe{
+        height: 360px;
+        width: 500px;
+        margin-top: 10%;
+    }
+    .one,.two {
+        margin-right: 2.5%;
+    }
+    .overlay-content{
+        width: 70%;
+        padding: 6% 15%;
+        margin: -35% 40%;
+    }
+    .hvrbox {
+        width: 280px;
+    }
+}
+
+
 
 /* New CSS Ends */
 /* --------------------------------------------- Font Sizes ---------------------------------------------- */
