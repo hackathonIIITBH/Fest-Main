@@ -45,6 +45,7 @@ a {
     background-color: rgba(0, 0, 0, 0.959);
     z-index: 60;
     cursor: pointer;
+    overflow: scroll;
 }
 
 ul{
@@ -133,9 +134,9 @@ li {
    height: 10%;
 }
 .top-section i {
-    margin: 1% 10%;
-    float: right;
+    margin: 4% 10% 0 78%;
     size: 10%;
+    position: fixed;
 }
 .overlay-context {
     font-size: medium;    
@@ -163,6 +164,7 @@ li {
     margin-left: 8%;
     height: 100%;
     width: 60%;
+    
 }
 .list-option {
     transition: .4s ease-in-out;
@@ -185,6 +187,12 @@ li {
 #listing{
     word-wrap: normal;
     padding: 0;
+}
+.overlay-content {
+    float: left;
+}
+.overlay-view iframe {
+    float: left;
 }
 @media (min-width: 310px) {
     ul{
@@ -261,9 +269,8 @@ li {
         margin-right: 2.5%;
     }
     .overlay-content{
-        width: 70%;
-        padding: 6% 15%;
-        margin: -35% 40%;
+        width: 45%;
+        margin: -35% 0 6% 52%;
     }
     .hvrbox {
         width: 280px;
