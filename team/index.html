@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from innerve24hrs.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jun 2021 05:41:30 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerve5.0</title>
+    <meta name=description content="Pune's Biggest Hackathon.">
+    <meta name=author content="Aman, Akash, Snehasis">
+    <meta name=keywords
+        content="Innerve, Innerve2k20, Innerve 2k21, Innerve5.0, Hackathon,Front-end, Freelancer, Developer, Designer">
+    <meta property=og:title content="Innerve2021">
+    <meta property=og:description content="Innerve 5.0 imparts you the platform to showcase your ideas and technical skills at a
+                                recognized level. This is the perfect opportunity to get those breathtaking ideas out of
+                                your astonishing minds and onto the computer screens. Coming again this year
+                                Innerve brings you with more engrossing and strenuous problem statements than ever
+                                before. So get ready for Innerve 5.0 to animate you with newer abstract, amazing
+                                winnings, and a fun-packed experience.">
+    <meta property=og:url content="index.html">
+    <meta property=og:image content="https://www.innerve.com/logo">
+    <meta property=og:image:width content=470>
+    <meta property=og:image:height content=246>
+    <meta property=og:site_name content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--fevicon-->
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap&amp;subset=devanagari,latin-ext"
+        rel=stylesheet>
+
+    <link rel=icon type=image/png href="assets/img/logo.png">
+    <link rel=apple-touch-icon href=apple-touch-icon.html>
+    <link rel=apple-touch-icon sizes=72x72 href=apple-touch-icon-72x72.html>
+    <link rel=apple-touch-icon sizes=114x114 href=apple-touch-icon-114x114.html>
+    <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188441075-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-188441075-2');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.1/vue-resource.min.js"></script>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+</head>
+
+<body id=body-element>
+    <canvas id="stars"></canvas>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v9.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="1018967011534840" theme_color="#007bff"
+        logged_in_greeting="Hi! Welcome to Pune's Biggest student driven Hackathon. How can we help you?"
+        logged_out_greeting="Hi! Welcome to Pune's Biggest student driven Hackathon. How can we help you?">
+    </div>
+
+    <!-- FB Chat Plugin ends -->
+    <div class=nav-main>
+        <div class=nav__content>
+            <ul class="nav__list active-nav-menu">
+                <li class=nav__list-item>
+                    <a href=#navabout id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">About</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navtheme id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Themes</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navfaq id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">FAQ</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navprizes id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Prizes</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navspeaker id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Speakers</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navsponsors id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Sponsors</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navcontact id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="navigation-wrap cbp-af-header">
+        <div class="container-fluid anime-4">
+            <div class=row>
+                <div class="col align-self-center pr-0">
+                    <div class="logo">
+                        <a href=#top class=stick-cursor data-gal=m_PageScroll2id>
+                            <img id="fav-logo-innerve" src=assets/img/logo.png alt=logo>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-auto align-self-center pl-0" onclick="addNavActive()">
+                    <div class=section>
+                        <div class=nav-but-wrap>
+                            <div class="menu-icon stick-cursor"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+        <!---------------------------------------------------- Judges Section ------------------------------------------------------->
+        <!-- <div class="container-fluid speaker-main " id="navspeaker ">
+            <div class="container mb-4 ">
+                <h2 class="mb-5 " style="text-align: center; ">Our Judges</h2>
+            </div>
+            <div class="container" id="app">
+                <div class="team-container">
+                    <div class="person-list">
+                        <div class="person" v-for="(person,index) in persons">
+                            <img class="person-img" :src="person.photo">
+                            <div class="person-details">
+                                <div class="d-flex flex-row flex-wrap person-social">
+                                    <a :href="person.link.linkedin"><img class="person-social-img"
+                                            src="./assets/img/linkedin.svg" alt=""></a>
+                                </div>
+                                <h2 class="person-title">{{person.name}}</h2>
+                                <p class="person-desc">{{person.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!---------------------------------------------------- Judges Section ------------------------------------------------------->
+
+
+        <!---------------------------------------------------- Speaker Section ------------------------------------------------------->
+
+        <div class="container-fluid speaker-main " id="navspeaker ">
+            <div class="container mb-4 ">
+                <h2 class="mb-5 " style="text-align: center; ">Our Team</h2>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-md-10 d-flex flex-row flex-wrap justify-content-center ">
+                    <div class="col-md-4 speaker-card text-center ">
+                        <a href="https://www.youtube.com/watch?v=zVEsJ0-HrCs&amp;feature=youtu.be" target="_blank">
+                            <div class="col-12 pb-3 "><img class="speaker-img " src="assets/Speaker/tamanjitSir.jpg"
+                                    alt=" ">
+                            </div>
+                            <h4>Tamanjit Bindra</h4>
+                            <p>Co-Founder</p>
+                            <p>Kaagaz Scanner</p>
+                            <!-- <h4>John Doe</h4>
+                            <p>CEO, FAAMG
+                            </p> -->
+                            <img class="card-arrow" src="assets/img/right-arrow.svg"></img>
+                        </a>
+                    </div>
+                    <div class="col-md-4 speaker-card text-center">
+                        <a href="https://www.youtube.com/watch?v=aIVVSANTexc&amp;feature=youtu.be" target="_blank">
+                            <div class="col-12 pb-3 "><img class="speaker-img " src="assets/Speaker/varun.jpg" alt=" ">
+                            </div>
+                            <h4>Varun Jain</h4>
+                            <p>Co-Founder & CEO</p>
+                            <p>udChalo</p>
+                            <img class="card-arrow " src="assets/img/right-arrow.svg"></img>
+                        </a>
+                    </div>
+                    <div class="col-md-4 speaker-card text-center">
+                        <a href="https://www.youtube.com/watch?v=Tzw6hIrs9II&amp;feature=youtu.be" target="_blank">
+                            <div class="col-12 pb-3 "><img class="speaker-img " src="assets/Speaker/hashmap.png"
+                                    alt=" ">
+                            </div>
+                            <h4>Team Hashmap</h4>
+                            <p></p>
+                            <p>Hashmap Inc.</p>
+                            <!--
+                            <p>Cloud Engineers</p>
+                            <p>Hashmap</p> -->
+                            <img class="card-arrow " src="assets/img/right-arrow.svg"></img>
+                        </a>
+                    </div>
+                    <!-- <div class="col-md-4 speaker-card text-center">
+                        <a href="https://www.linkedin.com/in/jalindar-karande/">
+                            <div class="col-12 pb-3 "><img class="speaker-img "
+                                    src="https://media-exp1.licdn.com/dms/image/C5603AQFamEyvL7j9YA/profile-displayphoto-shrink_200_200/0/1517789946978?e=1620259200&v=beta&t=NsegR0w_Z4cUYW6ax14_VjllyqCIT1KKRcw-lC6XC6k"
+                                    alt=" ">
+                            </div>
+                            <h4>Raghuram Katti
+                            </h4>
+                            <p>Project & Competency Manager</p>
+                            <p>Hashmap</p>
+                            <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
+                        </a>
+                    </div> -->
+                    <!-- <div class="col-md-4 speaker-card text-center">
+                        <a href="https://www.linkedin.com/in/jalindar-karande/">
+                            <div class="col-12 pb-3 "><img class="speaker-img "
+                                    src="https://media-exp1.licdn.com/dms/image/C5103AQGyIsd3xWnjkg/profile-displayphoto-shrink_200_200/0/1528966108981?e=1620259200&v=beta&t=whd5x-c8k2LgyvHJ69yp9IoetUYh41PX3jbeuoCYswU"
+                                    alt=" ">
+                            </div>
+                            <h4>Jalindar Karande
+                            </h4>
+                            <p>Lead Cloud Engineer-Data</p>
+                            <p>Hashmap</p>
+                            <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
+                        </a>
+                    </div> -->
+                    <!-- <div class="col-md-4 speaker-card text-center">
+                        <a href="https://www.linkedin.com/in/arshi-jilani-40157584/">
+                            <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/Speaker/ArshiJilani.jpeg"
+                                    alt=" ">
+                            </div>
+                            <h4>Arshi Jilani
+                            </h4>
+                            <p>Cloud Engineer-Data</p>
+                            <p>Hashmap</p>
+                            <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
+                        </a>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------- Speaker Section ------------------------------------------------------->
+
+
+        <!--------------------------------------------------- Contact Section -------------------------------------------------------->
+
+        <div class="container-fluid contact-main pt-5 " id="navcontact " data-aos="fade-right " data-aos-once="true ">
+            <div class="row justify-content-center ">
+                <div class="col-12 text-center mt-2 pb-4 z-bigger ">
+                    <h2>
+                        Contact Us!
+                    </h2>
+                </div>
+            </div>
+            <div id="mail-container ">
+                <div id="line-container ">
+                    <div class="line line-1 "></div>
+                    <div class="line line-4 "></div>
+                    <div class="line line-2 "></div>
+                    <div class="line line-5 "></div>
+                    <div class="line line-3 "></div>
+                </div>
+                <div id="mail "></div>
+            </div>
+            <div class="row justify-content-center p-5 social-ico " data-aos="fade-down " data-aos-once="true ">
+                <div class="social-icons ">
+                    <a href="https://twitter.com/innerve24hrs" target="_blank "
+                        class="social-icon social-icon--twitter ">
+                        <i class="fa fa-twitter "></i>
+                        <div class="tooltip ">Twitter</div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC76nIMy4neDdtu2PaLKCYSg" target="_blank "
+                        class="social-icon social-icon--youtube ">
+                        <i class="fa fa-youtube-play "></i>
+                        <div class="tooltip ">Youtube</div>
+                    </a>
+                    <a href="https://www.instagram.com/innerve24hrs/" target="_blank "
+                        class="social-icon social-icon--instagram ">
+                        <i class="fa fa-instagram "></i>
+                        <div class="tooltip ">Instagram</div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/14437084/" target="_blank "
+                        class="social-icon social-icon--linkedin ">
+                        <i class="fa fa-linkedin "></i>
+                        <div class="tooltip ">LinkedIn</div>
+                    </a>
+                    <a href="https://www.facebook.com/innerve24hrs" target="_blank "
+                        class="social-icon social-icon--facebook ">
+                        <i class="fa fa-facebook "></i>
+                        <div class="tooltip ">Facebook</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 text-center ">
+                <p class=mb-0>
+                    Wanna Connect by mail?
+                </p>
+                <br>
+                <h6>Email : innerve@aitpune.edu.in</h6>
+                <h6>Phone : +91 9877662729</h6>
+                <p class="mb-0 small-ph mt-3 justify-content-center ">
+                    <a href=mailto:innerve@aitpune.edu.in class="btn btn-approach " id="mail-btn " rel=noopener
+                        target=_blank>Click here for mail</a>
+                </p>
+            </div>
+        </div>
+
+        <!--------------------------------------------------- Contact Section -------------------------------------------------------->
+
+        <!---------------------------------------------------- Waves Section --------------------------------------------------------->
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+        </div>
+
+        <!---------------------------------------------------- Waves Section --------------------------------------------------------->
+    </main>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin=" anonymous "></script>
+    <script src="https://unpkg.com/%40pqina/flip%401.7.7/dist/flip.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/snow.js"></script>
+</body>
+
+
+<!-- Mirrored from innerve24hrs.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jun 2021 05:41:53 GMT -->
+
+</html>
