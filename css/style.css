@@ -261,7 +261,7 @@ li {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     ul{
-        margin-left: 40%;
+        margin-left: 38%;
     }
     .overlay-view iframe{
         height: 360px;
