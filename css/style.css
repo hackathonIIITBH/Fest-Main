@@ -136,8 +136,7 @@ li {
 .top-section {
    height: 10%;
 }
-.top-section i {
-    margin: 1% 10% 0 80%;
+.top-section i {    
     size: 10%;
     position: fixed;
 }
@@ -215,6 +214,9 @@ li {
         word-wrap: normal;
         height: 60%;
     }
+    .top-section i {
+        margin: 3% 10% 0 70%;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -234,6 +236,9 @@ li {
     }  
     .hvrbox {
         width: 540px;
+    }
+    .top-section i {
+        margin: 3% 10% 0 80%;
     }
 }
 
@@ -256,6 +261,9 @@ li {
     .hvrbox {
         width: 540px;
     }
+    .top-section i {
+        margin: 3% 10% 0 80%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -277,6 +285,9 @@ li {
     }
     .hvrbox {
         width: 280px;
+    }
+    .top-section i {
+        margin: 1% 10% 0 85%;
     }
 }
 
