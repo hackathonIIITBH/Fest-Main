@@ -50,7 +50,7 @@ a {
 
 ul{
     list-style: none;
-    margin-top: 4%;
+    margin: 4% 0;
 }
 li {
     display: inline;
@@ -58,6 +58,9 @@ li {
 }
 .fas {
     padding: 4%;
+}
+.event-list {
+    padding: 0 2%;
 }
 .hvrbox,
 .hvrbox * {
@@ -278,8 +281,8 @@ li {
         margin-left: 38%;
     }
     .overlay-view iframe{
-        height: 360px;
-        width: 500px;
+        height: 460px;
+        width: 60%;
         margin-top: 10%;
     }
     .one,.two {
@@ -287,7 +290,8 @@ li {
     }
     .overlay-content{
         width: 45%;
-        margin: -35% 0 6% 52%;
+        padding: -35% 0 6% 58%;
+        margin-left: 10%;
     }
     .hvrbox {
         width: 280px;
@@ -296,7 +300,7 @@ li {
         margin: 1% 10% 0 85%;
     }
     .top-section {
-        height: 20%;
+        height: 15%;
     }
 }
 
