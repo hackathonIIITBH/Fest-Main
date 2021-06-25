@@ -134,10 +134,10 @@ li {
     transform: scale(1.3) rotate(25deg);
 }
 .top-section {
-   height: 10%;
+   height: 15%;
 }
 .top-section i {    
-    size: 10%;
+    size: 20%;
     position: fixed;
 }
 .overlay-context {
