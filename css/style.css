@@ -1321,13 +1321,13 @@ iframe.devfolio-button-iframe {
 .carousel-control-next-icon {
     position: absolute;
     right: 0;
-    top: 290px;
+    top: 50%;
 }
 
 .carousel-control-prev-icon {
     position: absolute;
     left: 0;
-    top: 290px;
+    top: 50%;
 }
 
 .carousel-indicators li.active {
