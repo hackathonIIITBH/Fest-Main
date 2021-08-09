@@ -697,7 +697,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .home-box1 {
-    height: 2em;
+    height: 3em;
     background: linear-gradient(118.61deg, rgba(71, 78, 142, 0.45) -26.34%, rgba(60, 64, 97, 0.09) 53.42%);
     backdrop-filter: blur(46px);
     font-style: normal;
