@@ -203,6 +203,10 @@ a {
 .overlay-view iframe {
     float: left;
 }
+/* for rounded corner in event section on landing page*/
+*, ::after, ::before {
+    border-radius: 15px;
+}
 @media (min-width: 310px) {
     .list-option {
         margin-right: 10px;
