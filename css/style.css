@@ -1275,6 +1275,10 @@ iframe.devfolio-button-iframe {
     margin-bottom: 2%;
 }
 
+.quiz-content {
+    width: 90%;
+}
+
 .quiz-button{
     padding:0.5em 2em;
     border-radius:5px;
