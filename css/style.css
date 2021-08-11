@@ -111,7 +111,7 @@ a {
 	font-size: 18px;
 	display: inline-block;
 	position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;	
     height: 100%;
     width: 100%;
@@ -200,7 +200,7 @@ a {
 .overlay-context {
     text-align: justify;
 }
-.overlay-view iframe {
+.overlay-view img {
     float: left;
 }
 /* for rounded corner in event section on landing page*/
@@ -211,7 +211,7 @@ a {
     .list-option {
         margin-right: 10px;
     }
-    .overlay-view iframe{
+    .overlay-view img{
         height: 160px;
         width: 140%;
     }  
@@ -233,7 +233,7 @@ a {
     .list-option {
         margin-right: 40px;
     }
-    .overlay-view iframe{
+    .overlay-view img{
         height: 360px;
         width: 140%;
     }  
@@ -258,7 +258,7 @@ a {
     .list-option {
         margin-right: 60px;
     }
-    .overlay-view iframe{
+    .overlay-view img{
         height: 360px;
         width: 140%;
     }
@@ -283,7 +283,7 @@ a {
     .list-option {
         margin-right: 80px;
     }
-    .overlay-view iframe{
+    .overlay-view img{
         height: 400px;
         width: 60%;
         margin-top: 10%;
