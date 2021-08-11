@@ -1254,6 +1254,9 @@ iframe.devfolio-button-iframe {
     margin-top: 100px;
     margin-bottom: 100px;
 } */
+.themes-main {
+    margin-top: 5%;
+}
 
 .themes-text h1 {
     font-size: 2.5em;
@@ -1267,6 +1270,10 @@ iframe.devfolio-button-iframe {
     font-size: 1em;
 }
 
+.quiz-text {
+    margin-bottom: 2%;
+}
+
 .quiz-button{
     padding:0.5em 2em;
     border-radius:5px;
@@ -1274,21 +1281,32 @@ iframe.devfolio-button-iframe {
     font-family: 'Montserrat', sans-serif;
     font-weight:600;
 }
-#hashmap-quiz{
+#cultural{
     color:#163D9E;
     background-color: #fff;
 }
-#hashmap-quiz:hover{
+#cultural:hover{
     color:#163D9E;
     background-color: #fff;
+    transform: scale(1.05);
 }
-#figmd-quiz{
+#technical{
     color:#130421;
     background-color: #CDA9CE;
 }
-#figmd-quiz:hover{
+#technical:hover{
     color:#130421;
     background-color: #CDA9CE;
+    transform: scale(1.05);
+}
+#sports{
+    color:#163D9E;
+    background-color: rgb(126, 216, 252);
+}
+#sports:hover{
+    color:#163D9E;
+    background-color: rgb(126, 216, 252);
+    transform: scale(1.05);
 }
 
 .text-type-1 h3,
@@ -1325,13 +1343,13 @@ iframe.devfolio-button-iframe {
 .carousel-control-next-icon {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 45%;
 }
 
 .carousel-control-prev-icon {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 45%;
 }
 
 .carousel-indicators li.active {
