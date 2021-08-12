@@ -559,7 +559,7 @@ p {
 .nav-but-wrap {
     position: relative;
     display: inline-block;
-    float: right;
+    /* float: right; */
     transition: all .3s ease-out;
     pointer-events: auto
 }
@@ -797,6 +797,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .discordimg {
     height: 35px;
+    color: white;
 }
 
 
@@ -2724,9 +2725,9 @@ header {
     p {
         font-size: 1.5vw
     }
-    .logo-mob-dif-mob {
+    /* .logo-mob-dif-mob {
         /* mix-blend-mode: difference */
-    }
+    /* } */ 
     body.load-anime .logo-mob-back:before {
         opacity: 0
     }
@@ -3137,7 +3138,7 @@ body.load-anime .anime-4 {
   .back .info i:before {
 	background: linear-gradient(40deg, #142042, #bfc6cf);
 	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
   }
   .back .info .icon {
 	margin-left: 0.3em;
