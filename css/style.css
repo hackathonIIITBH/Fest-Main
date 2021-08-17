@@ -1365,6 +1365,9 @@ iframe.devfolio-button-iframe {
     .carousel-indicators {
         display: none;
     }
+    .quiz-content {
+        height: 34em;
+    }
 }
 
 @media (max-width:768px) {
