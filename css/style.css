@@ -171,6 +171,12 @@ a {
     width: 60%;
     
 }
+.listing {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
 .list-option {
     transition: .4s ease-in-out;
     color: white;
@@ -208,9 +214,6 @@ a {
     border-radius: 15px;
 }
 @media (min-width: 310px) {
-    .list-option {
-        margin-right: 10px;
-    }
     .overlay-view img{
         height: 160px;
         width: 140%;
@@ -229,10 +232,7 @@ a {
     }
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    .list-option {
-        margin-right: 40px;
-    }
+@media (min-width: 576px) {
     .overlay-view img{
         height: 360px;
         width: 140%;
@@ -255,9 +255,6 @@ a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .list-option {
-        margin-right: 60px;
-    }
     .overlay-view img{
         height: 360px;
         width: 140%;
@@ -280,9 +277,6 @@ a {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .list-option {
-        margin-right: 80px;
-    }
     .overlay-view img{
         height: 400px;
         width: 60%;
