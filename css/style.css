@@ -55,6 +55,7 @@ a {
 .list-option {
     display: inline;
     text-align: center;
+    margin: 0 8px;
 }
 .fas {
     padding: 4%;
