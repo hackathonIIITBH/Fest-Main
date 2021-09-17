@@ -44,7 +44,6 @@ a {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.959);
     z-index: 60;
-    cursor: pointer;
     overflow: scroll;
 }
 
@@ -62,6 +61,7 @@ a {
 }
 .event-list {
     padding: 0 2%;
+    overflow: hidden;
 }
 .hvrbox,
 .hvrbox * {
@@ -166,7 +166,7 @@ a {
     outline: none;
 }
 .overlay-view{
-    margin-left: 8%;
+    margin-left: 10%;
     height: 100%;
     width: 60%;
     
