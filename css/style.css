@@ -165,11 +165,23 @@ a {
 .overlay-button:focus {
     outline: none;
 }
+
 .overlay-view{
-    margin: auto;
+    margin: 2% 10%;
     height: 100%;
-    width: 80%;
-    
+    /* width: 80%;     */
+}
+@media (max-width: 999px) {
+    .overlay-view {
+        width: 80%;
+        height: 100%;
+    }
+}
+@media (min-width: 999px) {
+    .overlay-view {
+        width: 60%;
+        height: 100%;
+    }
 }
 .listing {
     display: flex;
