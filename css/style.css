@@ -166,9 +166,9 @@ a {
     outline: none;
 }
 .overlay-view{
-    margin-left: 10%;
+    margin: auto;
     height: 100%;
-    width: 60%;
+    width: 80%;
     
 }
 .listing {
@@ -217,8 +217,8 @@ a {
 }
 @media (min-width: 310px) {
     .overlay-view img{
-        height: 160px;
-        width: 140%;
+        height: 100%;
+        width: 100%;
     }  
     .overlay-content{        
         padding: 6% 6%;
@@ -236,8 +236,8 @@ a {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .overlay-view img{
-        height: 360px;
-        width: 140%;
+        height: 100%;
+        width: 100%;
     }  
     .overlay-content{
         width: 90%;
@@ -258,8 +258,8 @@ a {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .overlay-view img{
-        height: 360px;
-        width: 140%;
+        height: 100%;
+        width: 100%;
     }
     .overlay-content{        
         width: 90%;
