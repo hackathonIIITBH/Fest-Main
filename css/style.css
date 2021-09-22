@@ -2408,10 +2408,10 @@ a.btn-approach:hover:before {
 }
 
 .social-icon--instagram .tooltip:after {
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    border-top-color: #ee4729; 
+    border-top-color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    border-top-color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-top-color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 }
 
 .social-icon--youtube {
@@ -2840,7 +2840,7 @@ body.load-anime .anime-4 {
     align-self: center !important
 }
 
-#fav-logo-innerve {
+#fav-logo {
     border-radius: 50%;
     z-index: 1000;
     fill-opacity: 100%;
@@ -3045,6 +3045,11 @@ body.load-anime .anime-4 {
 
 .sponsor-content {
     margin-top: 3%;
+}
+
+.sponsor-content-main {
+    border: 3px solid white;
+    padding: 2%;
 }
 
 @media only screen and (max-width: 999px) {
@@ -3419,6 +3424,44 @@ body.load-anime .anime-4 {
 
 /* Judges Section */
 
+/* Team Section */
+.team-image {
+    height: 100%;
+    border: 3px solid rgb(17, 80, 122);
+}
+ .team-details {
+    border: 3px solid white;
+    padding: 4%;
+ }
+
+ @media (max-width: 999px) {
+    .team-content {
+        flex-direction: column;
+    }
+    .team-details {
+        width: 80%;
+    }
+    .team-image {
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .team-details h4 {
+        font-size: 22px;
+    }
+    .team-content p {
+        font-size: 16px;
+        padding: 5%;
+    }
+ }
+ @media (min-width: 999px) {
+     .team-content {
+         flex-direction: row;
+     }
+     .team-image {
+        width: 45%;
+        margin-right: 5%;
+     }
+ }
 
 
 
