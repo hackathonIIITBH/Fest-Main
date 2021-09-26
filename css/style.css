@@ -165,11 +165,13 @@ a {
 .overlay-button:focus {
     outline: none;
 }
-
+.middle-section {
+    padding: 2% 12%;
+}
 .overlay-view{
-    margin: 2% 10%;
+    margin: 6% 0%;
     height: 100%;
-    /* width: 80%;     */
+    width: 20%;    
 }
 @media (max-width: 999px) {
     .overlay-view {
@@ -179,7 +181,7 @@ a {
 }
 @media (min-width: 999px) {
     .overlay-view {
-        width: 60%;
+        width: 40%;
         height: 100%;
     }
 }
@@ -214,29 +216,29 @@ a {
     word-wrap: normal;
     padding: 0;
 }
-.overlay-content {
+/* .overlay-content {
     float: left;
-}
+} */
 .overlay-context {
     text-align: justify;
 }
 .overlay-view img {
-    float: left;
+    margin: 0;
 }
 /* for rounded corner in event section on landing page*/
 *, ::after, ::before {
     border-radius: 15px;
 }
 @media (min-width: 310px) {
-    .overlay-view img{
+    /* .overlay-view img{
         height: 100%;
         width: 100%;
-    }  
+    }   */
     .overlay-content{        
         padding: 6% 6%;
         word-wrap: normal;
         height: 60%;
-        margin-left: 4%;
+        /* margin-left: 4%; */
         width: 90%;
     }
     .top-section i {
@@ -247,14 +249,14 @@ a {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .overlay-view img{
+    /* .overlay-view img{
         height: 100%;
         width: 100%;
-    }  
+    }   */
     .overlay-content{
         width: 90%;
         padding: 6% 4%;
-        margin-left: 4%;
+        /* margin-left: 4%; */
     }  
     .hvrbox {
         width: 94%;
@@ -269,14 +271,14 @@ a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .overlay-view img{
+    /* .overlay-view img{
         height: 100%;
         width: 100%;
-    }
+    } */
     .overlay-content{        
         width: 90%;
         padding: 6% 4%;
-        margin-left: 4%;
+        /* margin-left: 4%; */
     }
     .hvrbox {
         width: 94%;
@@ -291,15 +293,20 @@ a {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .overlay-view img{
+    /* .overlay-view img{
         height: 400px;
         width: 60%;
         margin-top: 10%;
-    }
+    } */
     .overlay-content{
-        width: 40%;
-        padding: -35% 0 6% 54%;
-        margin-left: 8%;
+        width: 60%;
+        /* padding: -45% 0 6% 54%; */
+        margin-left: 6%;
+    }
+    .middle-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     .hvrbox {
         width: 28%;
