@@ -14,9 +14,9 @@ Array.from(check).forEach(item => {
     });
 });
 function show(segment) {
-    var cult = document.querySelectorAll('./event.html#cult');
-    var tech = document.querySelectorAll('./event.html#tech');
-    var sports = document.querySelectorAll('./#sports');
+    var cult = document.querySelectorAll('#cult');
+    var tech = document.querySelectorAll('#tech');
+    var sports = document.querySelectorAll('#sports');
     if (segment === 'cult') {
         for (var i = 0; i < cult.length; i++)
             cult[i].style.display = 'inline-block';
