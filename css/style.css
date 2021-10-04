@@ -2617,7 +2617,7 @@ header {
 }
 
 .cbp-af-header {
-    padding: 40px 25px;
+    padding: 20px 25px;
     padding-bottom: 0;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out
@@ -2629,7 +2629,7 @@ header {
 }
 
 .cbp-af-header.cbp-af-header-shrink .logo {
-    transform: scale(1.2) translateY(10px);
+    transform: scale(1.0) translateY(10px);
     height: 45px;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out
@@ -2652,8 +2652,8 @@ header {
 }
 
 .logo img {
-    height: 4em;
-    width: 4em;
+    height: 6em;
+    width: 6em;
     display: block;
     -webkit-transition: all .7s ease;
     transition: all .7s ease;
@@ -2866,20 +2866,7 @@ body.load-anime .anime-4 {
     z-index: 1000;
     fill-opacity: 100%;
 }
-@media(min-width:992px)
-{
-    .logo img {
-        width: 90px;
-        height: 90px;
-    }
-}
-@media(max-width:992px)
-{
-    .logo img {
-        width: 60px;
-        height: 60px;
-    }
-}
+
 
 @media (max-width:575px) {
     .h1,
