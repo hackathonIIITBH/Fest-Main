@@ -2629,7 +2629,7 @@ header {
 }
 
 .cbp-af-header.cbp-af-header-shrink .logo {
-    transform: scale(1.0) translateY(10px);
+    transform: scale(0.2) translateY(8px);
     height: 45px;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out
@@ -2652,8 +2652,8 @@ header {
 }
 
 .logo img {
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
     display: block;
     -webkit-transition: all .7s ease;
     transition: all .7s ease;
