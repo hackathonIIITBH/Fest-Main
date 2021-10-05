@@ -2644,7 +2644,7 @@ header {
     position: relative;
     transform-origin: left bottom;
     padding: 0;
-    height: 45px;
+    height: 65px;
     display: inline-block;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
