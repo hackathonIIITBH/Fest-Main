@@ -2629,7 +2629,7 @@ header {
 }
 
 .cbp-af-header.cbp-af-header-shrink .logo {
-    transform: scale(0.2) translateY(8px);
+    transform: scale(1.2) translateY(4px);
     height: 45px;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out
@@ -2652,8 +2652,8 @@ header {
 }
 
 .logo img {
-    height: 5em;
-    width: 5em;
+    height: 7em;
+    width: 7em;
     display: block;
     -webkit-transition: all .7s ease;
     transition: all .7s ease;
@@ -3454,6 +3454,7 @@ body.load-anime .anime-4 {
  .team-details {
     border: 3px solid white;
     padding: 4%;
+    margin-bottom: 5%;
  }
 
  @media (max-width: 999px) {

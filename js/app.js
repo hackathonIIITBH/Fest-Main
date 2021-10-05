@@ -55,9 +55,9 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
-        document.getElementById("fav-logo").style.transform = "scale(1.3)";
+        document.getElementById("fav-logo").style.transform = "scale(1.2)";
     } else {
-        document.getElementById("fav-logo").style.transform = "scale(0.9)";
+        document.getElementById("fav-logo").style.transform = "scale(1.0)";
     }
 }
 
