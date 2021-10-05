@@ -2652,8 +2652,8 @@ header {
 }
 
 .logo img {
-    height: 5em;
-    width: 5em;
+    height: 8em;
+    width: 8em;
     display: block;
     -webkit-transition: all .7s ease;
     transition: all .7s ease;
