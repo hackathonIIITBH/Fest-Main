@@ -211,12 +211,16 @@ a {
     cursor: pointer;
 }
 .active {
+    border: 3px solid white;
+    padding: 10px;
+}
+.active-btn {
     border: 3px solid rgb(17, 14, 177);
-    padding: 10px;   
-    background-color: rgb(17, 14, 177);  
+    padding: 10px;
+    background-color: rgb(17, 14, 177);
 }
 
-#listing{
+.listing{
     word-wrap: normal;
     padding: 0;
 }

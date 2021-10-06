@@ -8,9 +8,9 @@ function off(id) {
 var check = document.querySelectorAll('.check');
 Array.from(check).forEach(item => {
     item.addEventListener("click", () => {
-        var selected = document.getElementsByClassName("active");
-        selected[0].className = selected[0].className.replace(" active", "");
-        item.className += " active";
+        var selected = document.getElementsByClassName("active-btn");
+        selected[0].className = selected[0].className.replace(" active-btn", "");
+        item.className += " active-btn";
     });
 });
 function show(segment) {
