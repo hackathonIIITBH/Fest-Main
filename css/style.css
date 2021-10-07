@@ -1737,7 +1737,15 @@ a.btn-approach:hover:before {
     margin-top: 100px;
     margin-bottom: -100px;
 }
-
+.star-night {
+    border-radius: 15px;
+    background: #5465c700;
+    padding: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
 .main-sponsor {
     border-radius: 15px;
     background: #5465c700;
@@ -3090,6 +3098,10 @@ body.load-anime .anime-4 {
         width: 70%;
         height: 100%;
     }
+    .star-poster {
+        width: 70%;
+        height: 100%;
+    }
     .btn-sponsor {
         margin: 2% 0% 8% 0%;
     }
@@ -3106,6 +3118,13 @@ body.load-anime .anime-4 {
         width: 40%;
         height: 100%;
         margin-right: 5%;
+    }
+    .star-poster {
+        width: 50%;
+        height: 120%;
+        margin-right: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
