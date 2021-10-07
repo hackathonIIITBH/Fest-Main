@@ -3462,7 +3462,6 @@ body.load-anime .anime-4 {
     padding: 4%;
     margin-bottom: 5%;
  }
-
  @media (max-width: 999px) {
     .team-content {
         flex-direction: column;
