@@ -725,7 +725,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .home-box1 {
-    height: 1.7em;
+    height: 2em;
     background: linear-gradient(118.61deg, rgba(71, 78, 142, 0.45) -26.34%, rgba(60, 64, 97, 0.09) 53.42%);
     backdrop-filter: blur(46px);
     font-style: normal;
@@ -900,7 +900,7 @@ iframe.devfolio-button-iframe {
         max-width: 100%;
     }
     .home-box2 {
-        height: 10em;
+        height: 6em;
     }
     .home-button-1 {
         max-width: 100% !important;
@@ -943,7 +943,7 @@ iframe.devfolio-button-iframe {
         font-size: 1rem;
     }
     .home-box2 {
-        height: 10em;
+        height: 6em;
     }
     .home-button-1,
     .home-button-2 {
