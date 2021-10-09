@@ -1795,13 +1795,13 @@ a.btn-approach:hover:before {
 
 @media all and (max-width:768px) {
     .titleImg {
-        width: 100% !important;
+        width: 130% !important;
     }
     .coImg {
-        width: 100% !important;
+        width: 120% !important;
     }
     .subImg {
-        width: 85% !important;
+        width: 105% !important;
     }
     .supImg{
         width: 80% !important;
