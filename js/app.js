@@ -54,17 +54,3 @@ const changeFaqIcon = (id) => {
     else
         document.getElementById(`${id}-qna-icon`).innerHTML = "+";
 }
-const app = new Vue({
-    el: "#app",
-    data() {
-        return {
-            persons: persons,
-            selectedPersonIndex: null,
-            isSelected: false,
-            selectedPerson: null,
-            // inlineStyles: null,
-            isReady: false,
-            isOk: false
-        };
-    }
-});
