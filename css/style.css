@@ -178,6 +178,7 @@ a {
 .overlay-button:hover {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    cursor: pointer;
 }
 .overlay-button:focus {
     outline: none;
@@ -768,7 +769,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .landing-logo {
     width: 100%;
-    height: 300px;
+    height: 100%;
     margin-bottom: 10px;
 }
 
@@ -792,6 +793,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .home-box2 {
     height: 5em;
+    margin: 0%;
 }
 
 .home-box2 .col-md-6 {

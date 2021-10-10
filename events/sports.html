@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENYUGMA</title>
+    <meta name='subject' content="Techno-Cultural-Fest">
+    <meta name='language' content='ES'>
+    <meta name=description content="ENYUGMA is a celebration of the massive diversity and unity that
+    characterises our
+    country. We intend to provide an enriching experience to the participants by
+    challenging their tech-cognizance, socio-cultural, managerial and leadership skills
+    through this fest. It consists of exciting events, competitions and workshops
+    featuring experts in related fields, focusing on domains like blockchain, machine
+    learning, theatre and animation that recognise the role of the challenges faced by
+    society in our everyday indulgences"">
+    <meta name=author content=" IIIT Bhagalpur">
+    <meta property=og:title content="ENYUGMA">
+    <meta name=keywords
+        content="Enyugma, Enyugma 2k21, Bit by Bit, IIIT Bhagalpur Techno Cultral Sports fest, IIIT Bhagalpur">
+    <meta property=og:description content="is a celebration of the massive diversity and unity that
+    characterises our
+    country. We intend to provide an enriching experience to the participants by
+    challenging their tech-cognizance, socio-cultural, managerial and leadership skills
+    through this fest. It consists of exciting events, competitions and workshops
+    featuring experts in related fields, focusing on domains like blockchain, machine
+    learning, theatre and animation that recognise the role of the challenges faced by
+    society in our everyday indulgences">
+    <meta name='url' content='https://enyugma.iiitbh.ac.in/'>
+    <meta name='identifier-URL' content='https://enyugma.iiitbh.ac.in/'>
+    <meta property=og:url content="../index.html">
+    <meta property=og:image content="../assets/favi-icon.ico">
+    <meta name='copyright' content='Enyugma Team, Indian Institute of Information Technology, Bhagalpur'>
+    <meta property=og:image:width content=470>
+    <meta property=og:image:height content=246>
+    <meta property=og:site_name content="ENYUGMA">
+    <meta name='coverage' content='Worldwide'>
+    <meta name='distribution' content='Global'>
+    <meta name='rating' content='General'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='no-cache'>
+    <meta http-equiv='imagetoolbar' content='no'>
+    <meta http-equiv='x-dns-prefetch-control' content='off'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--fevicon-->
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap&amp;subset=devanagari,latin-ext"
+        rel=stylesheet>
+
+    <link rel=icon type=image/png href="../assets/favi-icon.ico">
+    <link rel=apple-touch-icon href=apple-touch-icon.html>
+    <link rel=apple-touch-icon sizes=72x72 href=apple-touch-icon-72x72.html>
+    <link rel=apple-touch-icon sizes=114x114 href=apple-touch-icon-114x114.html>
+    <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EB77D9BKX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0EB77D9BKX');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.1/vue-resource.min.js"></script>
+</head>
+
+<body id=body-element>
+    <canvas id="stars"></canvas>
+
+    <div class=nav-main>
+        <div class=nav__content>
+            <ul class="nav__list active-nav-menu">
+                <li class=nav__list-item>
+                    <a href=../index.html#navabout id="navItem" class="active-nav-menu stick-cursor" target="_blank"
+                        onclick="addNavActive()">About</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=../index.html#navtheme id="navItem" class="active-nav-menu stick-cursor" target="_blank"
+                        onclick="addNavActive()">Events</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=../index.html#navsponsors id="navItem" class="active-nav-menu stick-cursor" target="_blank"
+                        onclick="addNavActive()">Sponsors</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navcontact id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="navigation-wrap cbp-af-header">
+        <div class="container-fluid anime-4">
+            <div class=row>
+                <div class="col align-self-center pr-0">
+                    <div class="logo">
+                        <a href=#top class=stick-cursor data-gal=m_PageScroll2id>
+                            <img id="fav-logo" src="../img/Logo.png" alt=logo
+                                onclick="window.location.href='https://www.iiitbh.ac.in/';">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-auto align-self-center pl-0" onclick="addNavActive()">
+                    <div class=section>
+                        <div class=nav-but-wrap>
+                            <div class="menu-icon stick-cursor"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-------------------------------------------------- Quiz Section ------------------------------------------------------>
+
+        <div class="container-fluid themes-main" id="navabout" style="margin-top:5%">
+            <div class="row justify-content-around">
+                <div class="col-10">
+                    <div class="col-12 quiz-text">
+                        <h1 class="text-center">Events</h1>
+                    </div>
+                    <div class="list">
+                        <ul class="listing">
+                            <li><a class="list-option one check" onclick="show('tech');">Technical</a>
+                            </li>
+                            <li><a class="list-option two check" onclick="show('cult');">Cultural</a>
+                            </li>
+                            <li><a class="list-option three check active-btn" onclick="show('sports');">Sports</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="item-1" class="overlay">
+                        <div class="top-section">
+                            <a onclick="off('item-1')"><i class="fas fa-times"></i></a>
+                        </div>
+                        <div class="middle-section">
+                            <img src="../events-images/bit by bit poster.png" class="overlay-view"></img>
+                            <div class="overlay-content">
+                                <h4 class="overlay-head">Event Description</h4>
+                                <p class="overlay-context"><strong>Bit by Bit</strong> is an open ended , non stop
+                                    "toolbox development " competition initiated by Technical board of <strong>IIIT
+                                        Bhagalpur</strong>. This is an inter college competition which got participation
+                                    from enthusiasts in different feilds. In this our aim is to inspire minds to unique
+                                    problem specific toolboxes for proposed ideas or even open-ended real life problems.
+                                </p>
+                                <h4>Event Details</h4>
+                                <p><span class="field">Platform:</span> Devfolio</p>
+                                <p><span class="field">Date:</span> 19th October,2021 - 21st October,2021</p>
+                                <p><span class="field">Type:</span> Hackathon</p>
+                                <p><span class="field">Registration Fees:</span> Free</p>
+                                <button class="overlay-button"
+                                    onclick="window.open('https://iiitbh.tech/','_blank');">Register Here</button>
+                            </div>
+                        </div>
+                        <div class="middle-section d-flex flex-row" style="margin-top: -8%;">
+                            <div class="text-justify overlay-content-1">
+                                <h4 class="text-left"><br>Judges & Mentors:<br></h4>
+                                <p><span class="field">✓ </span>There will be some Judges from different Domains.</p>
+                            </div>
+                        </div>
+                        <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                            <div class="text-justify overlay-content-1">
+                                <h4 class="overlay-head">Prizes<br></h4>
+                                <p><span class="field">✓ </span>All Participants will get Participation Certificate.
+                                </p>
+                                <p><span class="field">✓ </span>Merit Certificates and Cash Prizes shall be awarded
+                                    to Top Three Teams.<br></p>
+                            </div>
+                        </div>
+                        <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                            <div class="text-justify overlay-content-1">
+                                <h4>Prize Details:<br></h4>
+                                <p><span class="field">Position #1: </span>Rs 10000(Cash)</p>
+                                <p><span class="field">Position #2: </span>Rs 5000(Cash)</p>
+                                <p><span class="field">Position #3: </span>Rs 2500(Cash)</p>
+                            </div>
+                        </div>
+                        <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                            <div class="text-justify overlay-content-1">
+                                <h4 class="text-left">Rules and Regulations:<br></h4>
+                                <p><span class="field">✓ </span>The team can be of size 1-4 members. </p>
+                                <p><span class="field">✓ </span>All school students and college students including the
+                                    students graduating this year are
+                                    invited. Even working professionals and people who don't have any formal education
+                                    are welcomed!.</p>
+                                <p><span class="field">✓ </span>One can submit only one project but it can include as
+                                    many tracks as you want.</p>
+                                <p><span class="field">✓ </span>The work done during the hackathon is only counted.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="item-2" class="overlay">
+                        <div class="top-section">
+                            <a onclick="off('item-2')"><i class="fas fa-times"></i></a>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="middle-section">
+                                <img src="../events-images/coding contest.png" class="overlay-view"></img>
+                                <div class="overlay-content">
+                                    <h4 class="overlay-head">Event Description</h4>
+                                    <p class="overlay-context"><strong>Code Ignite</strong> is organizing <strong>Coding
+                                            challenge 2021</strong> an online coding competition for programming
+                                        enthusiasts. The track of the contest is Data Structures and Algorithms. There
+                                        will
+                                        be multiple problems and points will be set based on the difficulty level of the
+                                        problem.</p>
+                                    <h4>Event Details</h4>
+                                    <p><span class="field">Platform:</span> Coding Ninja</p>
+                                    <p><span class="field">Date:</span> 18th October 9 A.M. - 12 P. M.</p>
+                                    <p><span class="field">Type:</span> Coding</p>
+                                    <p><span class="field">Registration Fee:</span> Free for all<br><br></p>
+                                    <button class="overlay-button"
+                                        onclick="window.open('https://forms.gle/Xbn9QA7hL2wVv9KH8','_target');">Register
+                                        Here</button>
+                                </div>
+                            </div>
+                            <div class="middle-section d-flex flex-row" style="margin-top: -8%;">
+                                <div class="text-justify overlay-content-1">
+                                    <h4 class="overlay-head"><br>Prizes<br></h4>
+                                    <p><span class="field">✓ </span>All Participants will get Participation Certificate.
+                                    </p>
+                                    <p><span class="field">✓ </span>Merit Certificates and Cash Prizes shall be awarded
+                                        to Top Five Participants from the Event Hosting Company.<br></p>
+                                </div>
+                            </div>
+                            <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                                <div class="text-justify overlay-content-1">
+                                    <h4>Prize Details:<br></h4>
+                                    <p><span class="field">Position #1: </span>Rs 2500 [1000(Amazon Coupon) +
+                                        1500(Cash)] + T-Shirt. </p>
+                                    <p><span class="field">Position #2: </span>Rs 2000 [1000(Amazon Coupon) +
+                                        1000(Cash)] + T-Shirt. </p>
+                                    <p><span class="field">Position #3: </span>Rs 1500 [1000(Amazon Coupon) + 500(Cash)]
+                                        + T-Shirt. </p>
+                                    <p><span class="field">Position #4 & #5: </span>Rs 250 (Cash) + T-Shirt. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                            <div class="text-justify overlay-content-1">
+                                <h4 class="text-left"><br>Rules and Regulations:<br></h4>
+                                <p><span class="field">✓ </span>Please do not discuss strategy, suggestions, or tips
+                                    in the comments during a live contest. </p>
+                                <p><span class="field">✓ </span>Discussing problems or any aspect of a problem,
+                                    on any other platform on the web, on identification,
+                                    could lead to disabling of respective accounts and
+                                    banning from the Contest.</p>
+                                <p><span class="field">✓ </span>Each program will be tested based on our critical
+                                    test data. However, output and input should be
+                                    exactly as specified in the samples provided.</p>
+                                <p><span class="field">✓ </span>Participant can use any language for coding.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item-3" class="overlay">
+                <div class="top-section">
+                    <a onclick="off('item-3')"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="middle-section">
+                    <img src="../events-images/Code&Volts.png" class="overlay-view"></img>
+                    <div class="overlay-content">
+                        <h4 class="overlay-head">Event Description</h4>
+                        <p class="overlay-context"><strong>CODES & VOLTS</strong> is a competition (based on
+                            Arduino project) initiated by the <strong>Technical Board of IIIT
+                                Bhagalpur</strong>. In this competition teams from different colleges will
+                            compete by making their best project from given theme. <strong>The theme will be
+                                game development, Hospital Management systems in this Corona Period, and many
+                                more.</strong> Teams can select their theme just before starting the event and
+                            have to complete within time. In this, our aim is to inspire minds to work on
+                            projects from real-life problems with help of our best project building teams.</p>
+                        <h4>Event Details</h4>
+                        <p><span class="field">Platform:</span> Dare2Complete</p>
+                        <p><span class="field">Date:</span> 22nd October 12 P.M. - 9 P.M.</p>
+                        <p><span class="field">Type:</span> Circuit Designing</p>
+                        <p><span class="field">Participation Fee:</span> Free</p>
+                        <button class="overlay-button"
+                            onclick="window.open('https://dare2compete.com/p/codes-volts-arduino-based-competition-indian-institute-of-information-technology-iiit-bhagalpur-221452','_target');">Register
+                            Here</button>
+                    </div>
+
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -8%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="overlay-head">Themes<br></h4>
+                        <p><span class="field">✓ </span>Game Development.</p>
+                        <p><span class="field">✓ </span>Hospital Management system in Corona Periods.<br></p>
+                        <p><span class="field">✓ </span>Home Automation.<br></p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="overlay-head">Judges & Mentors:<br></h4>
+                        <p><span class="field">✓ </span>There will be some Judges from
+                            different Domains.</p>
+                        <p><span class="field">✓ </span>There will be Discord Channels for discussion/ asking
+                            doubts.<br></p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="overlay-head">Prizes<br></h4>
+                        <p><span class="field">✓ </span>All Participants will get Participation Certificate.
+                        </p>
+                        <p><span class="field">✓ </span>Merit Certificates and Cash Prizes shall be awarded
+                            to Top Three Participants.<br></p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4>Prize Details:<br></h4>
+                        <p><span class="field">Position #1: </span>Rs 3000(Cash)</p>
+                        <p><span class="field">Position #2: </span>Rs 3000(Cash)</p>
+                        <p><span class="field">Position #3: </span>Rs 1000(Cash)</p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="text-left">
+                            <Rules and Regulations:<br>
+                        </h4>
+                        <p><span class="field">✓ </span>The participants’ devices must be connected
+                            through a stable medium speed internet. </p>
+                        <p><span class="field">✓ </span>Each detail will be shared in the discord server and
+                            the event will be hoisted and organized in the
+                            discord server at the end of the event the judging
+                            committee will declare the top five best performers
+                            based on the circuit design, conceptual knowledge
+                            of the subject and the neatness of the code.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="item-4" class="overlay">
+                <div class="top-section">
+                    <a onclick="off('item-4')"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="middle-section">
+                    <img src="../events-images/ENCODEYUGMA.png" class="overlay-view"></img>
+                    <div class="overlay-content">
+                        <h4 class="overlay-head">Event Description</h4>
+                        <p class="overlay-context"><strong>ENCODEYUGMA</strong> will be a coding contest hosted
+                            on an online platform. It will consist of questions that will test your <strong>Data
+                                structures, Algorithms and Discrete Maths skills</strong> to the edge, along
+                            with filtering on the basis of speed and efficiency. <strong>The more questions you
+                                solve, the more you are rewarded.</strong></p>
+                        <h4>Event Details</h4>
+                        <p><span class="field">Platform:</span> Codechef</p>
+                        <p><span class="field">Date:</span> 21st October, 2021 12 P.M. - 6 P.M.</p>
+                        <p><span class="field">Type:</span> Coding</p>
+                        <button class="overlay-button"
+                            onclick="window.open('https://forms.gle/1R98p8SNWXQq3bbs8','_target');">Register
+                            Here</button>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -8%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="overlay-head"><br>Prizes<br></h4>
+                        <p><span class="field">✓ </span>All Participants will get Participation Certificate.
+                        </p>
+                        <p><span class="field">✓ </span>Merit Certificates and Cash Prizes shall be awarded
+                            to Top Three Participants.<br></p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4>Prize Details:<br></h4>
+                        <p><span class="field">Position #1: </span>Rs 2700 [1000(GFG Coupon) + 1200(Cash)].</p>
+                        <p><span class="field">Position #2: </span>Rs 1800 [800(GFG Coupon) + 1000(Cash)]. </p>
+                        <p><span class="field">Position #3: </span>Rs 1000 [500(GFG Coupon) + 500(Cash)]. </p>
+                        <p><span class="field">Participants: </span>Rs 300 (GFG Coupon). </p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="text-left"><br>Rules and Regulations:<br></h4>
+                        <p><span class="field">✓ </span>Please do not discuss strategy, suggestions, or tips
+                            in the comments during a live contest. </p>
+                        <p><span class="field">✓ </span>Discussing problems or any aspect of a problem,
+                            on any other platform on the web, on identification,
+                            could lead to disabling of respective accounts and
+                            banning from the Contest.</p>
+                        <p><span class="field">✓ </span>Each program will be tested based on our critical
+                            test data. However, output and input should be
+                            exactly as specified in the samples provided.</p>
+                        <p><span class="field">✓ </span>Participant can use any language for coding.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="item-5" class="overlay">
+                <div class="top-section">
+                    <a onclick="off('item-5')"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="middle-section">
+                    <img src="../events-images/Groove.PNG" class="overlay-view"></img>
+                    <div class="overlay-content">
+                        <h4 class="overlay-head">Event Description</h4>
+                        <p class="overlay-context"><strong>Why walk when you can dance?</strong><br><br>Dancing
+                            is so much more than just grooving on the dance floor to your favorite tunes. Step
+                            Up-put on your swaying
+                            shoes and ghunghrus! The land of bhangra would love to host your
+                            many moods.</p>
+                        <h4>Event Details</h4>
+                        <p><span class="field">Platform:</span> Instagram</p>
+                        <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                        <p><span class="field">Type:</span> Dancing</p>
+                        <p><span class="field">Resgistration Fee:</span> Nil</p>
+                        <button class="overlay-button"
+                            onclick="window.open('https://forms.gle/jj9Bg6M9oyg3ERvP7','_target');">Register
+                            Here</button>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -8%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="overlay-head"><br>Prizes<br></h4>
+                        <p><span class="field">✓ </span>All Participants will get Participation Certificate.
+                        </p>
+                        <p><span class="field">✓ </span>Merit Certificates and Cash Prizes shall be awarded
+                            to Top Three Participants.<br></p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4>Prize Details:<br></h4>
+                        <p><span class="field">Position #1: </span>Rs 1500</p>
+                        <p><span class="field">Position #2: </span>Rs 1000</p>
+                        <p><span class="field">Position #3: </span>Rs 500</p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -11%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4>Judging Criteria:<br></h4>
+                        <p><span class="field">✓ </span>Instagram Likes: 10%</p>
+                        <p><span class="field">✓ </span>Choreo Graphy: 20%</p>
+                        <p><span class="field">✓ </span>Expressions: 15%</p>
+                        <p><span class="field">✓ </span>Smooth Moves: 15%</p>
+                        <p>Performances will be uploaded on the following channel : <a class="field" href="https://www.instagram.com/gyrate_iiitbh/"><i class="fab fa-instagram"></i></a></i></p>
+                    </div>
+                </div>
+                <div class="middle-section d-flex flex-row" style="margin-top: -10%;">
+                    <div class="text-justify overlay-content-1">
+                        <h4 class="text-left"><br>Rules and Regulations:<br></h4>
+                        <p><span class="field">✓ </span>Participants are required to submit a recorded dance video
+                            which is not any previous stage performance.</p>
+                        <p><span class="field">✓ </span>The duration of the video is mentioned. Exceeding the time limit
+                            is
+                            strictly not allowed and if the video exceeds the stipulated time
+                            limit, the corresponding entry will be penalized.</p>
+                        <p><span class="field">✓ </span>Each program will be tested based on our critAny kind of
+                            vulgarity or indecency is prohibited, be it through
+                            dance gestures or song lyrics.</p>
+                        <p><span class="field">✓ </span>The submissions should be in an .mp4/.mov format, submitted
+                            as a Google Drive link with the relevant permissions to
+                            download the video.</p>
+                        <p><span class="field">✓ </span>Only one entry per participant is allowed.</p>
+                        <p><span class="field">✓ </span>All participants must be studying in the Indian
+                            college/school/university at the time of submission. Participants in
+                            the video submission would be required to provide their
+                            college/school/university ID cards while filling the registration form</p>
+                        <p><span class="field">✓ </span>The video must be taken in a single shot, and any kind of
+                            editing
+                            or special effects are not allowed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="item-6" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-6')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Sketch Hour.png" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context"><strong>Art</strong> is something which can move the innards
+                        of the soul just by its visual appeal. Carving a story out of paint on a shade.
+                        Laying down a basket of emotions without using any mainstream communication is the
+                        essence of art. If you believe you are a diamond in the rough, we will make you
+                        shine. Step into <strong>Enyugma</strong> and put on a work that screams in its
+                        silence and we promise you it will be seen.</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Drawing</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/SGBMo5vgbbaoZT5VA','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-7" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-7')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Cadance.PNG" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context"><Strong>Music</Strong> is perhaps the strongest uniting
+                        factor known to mankind because whoever you are, there is always that one haunting
+                        tune that makes you hold your breath, close your eyes and have a heart-to-heart with
+                        your soul. We, at Enyugma, believe in celebrating music in all its glory and in lieu
+                        of that we invite all the shooting talents from all over the country to lay down a
+                        tune to touch hearts.</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Music</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/YL3oVPx6zbvFN6Yk8','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-8" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-8')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/make a moment.png" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">As Enyugma sets the IIIT-Bhagalpur campus abuzz with
+                        activity, this event provides an interesting way to capture those myriad sceneries
+                        of nature, light, darkness, continuum which is the essence of Enyugma. So you,
+                        Monets and van Goghs, pick up your cameras right now and walk to the arena to
+                        capture the legendary events in your memory cards.</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Photography</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/sj5qJ94sTQRUAfMV6','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-9" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-9')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Knock Out.PNG" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">Freedom is hammered out on the anvil of discussion, dissent,
+                        and debate. Enyugma, IIIT Bhagalpur opens its door to students from all walks of
+                        life, There’s no point in having an opinion if you can’t voice it. If you have a way
+                        of
+                        bringing conviction to your points, we have the perfect competition for you!</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Google Meet/Zoom</p>
+                    <p><span class="field">Date:</span> Will be released soon.</p>
+                    <p><span class="field">Type:</span> Debate</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/XuRKG16x2vVoqXF89','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-10" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-10')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Antarman.PNG" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">Showcase your inner Wordsworth. Spill
+                        that ink, let those words flow as we wait
+                        for your poetry to leave us spellbound.</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Poetry</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/y3x4bv2zVfqJxhHf7','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-11" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-11')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Cinemania.png" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">While great acting is required to make a
+                        good movie, the lack of proper editing
+                        can even make Captain America look
+                        like a clown. So, be there and make
+                        sure you clip it the right way!</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Video Editing</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/v73xbriU7kdXSu7y8','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-13" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-13')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Euphony.PNG" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">If you
+                        ve got the voice, we ve got the
+                        mic! Here s a competition to bring out
+                        your inner virtuoso, and perhaps blow
+                        the roof off the place</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Vocal</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/bALtoLVmzg1KcNKDA','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-15" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-15')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/Moving sprit.PNG" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">Do you want to easily share
+                        something really cool and funny
+                        with the people around you? Yes,
+                        we are talking about memes.
+                        Here
+                        we have decided to throw a
+                        contest where you can quickly
+                        create and share your own memes
+                        easily. It s time to show everyone
+                        the Memer in you. Let s see who
+                        could make the funniest memes
+                        and make us gag at the loudest.</p>
+                    <h4>Event Details</h4>
+                    <p><span class="field">Platform:</span> Instagram</p>
+                    <p><span class="field">Date:</span> 12 P.M. 18th Oct,2021 - 2 P.M. 22 Oct, 2021</p>
+                    <p><span class="field">Type:</span> Meme Competition</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/TNWiUvde7LpT8N8t7','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-16" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-16')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/remaining poster.png" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context"><strong>Want to play something thriller?</strong> You
+                        shouldn't miss it. Get in the Play with the players from several colleges across
+                        India. Enyugma IIIT Bhagalpur brings to you PUBG mobile tournament to give you the
+                        thrills of Gaming with earning. Have the battle for your chiken dinner and be ready
+                        with your squad.</p>
+                    <h4>Project Details</h4>
+                    <p><span class="field">Platform:</span> BGMI</p>
+                    <p><span class="field">Date:</span> 20th Oct, 2021 7PM to 9PM</p>
+                    <p><span class="field">Type:</span> E-games</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/6ZytfT7orykk9uSq8','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-17" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-17')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/remaining poster 2.png" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context">Respect your leader and acknowledge
+                        his power. Join with your clan and
+                        battle with players for a win. Clash of
+                        Clans is an online multiplayer game in
+                        which players form communities called
+                        clans, train troops, and attack other
+                        players to earn resources.</p>
+                    <h4>Project Details</h4>
+                    <p><span class="field">Platform:</span> Clash of Clans</p>
+                    <p><span class="field">Date:</span> 20th Oct, 2021 7PM to 9PM</p>
+                    <p><span class="field">Type:</span> E-games</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/a6wiqkKqzzWiLf8W9','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+        <div id="item-18" class="overlay">
+            <div class="top-section">
+                <a onclick="off('item-18')"><i class="fas fa-times"></i></a>
+            </div>
+            <div class="middle-section">
+                <img src="../events-images/chess poster.png" class="overlay-view"></img>
+                <div class="overlay-content">
+                    <h4 class="overlay-head">Event Description</h4>
+                    <p class="overlay-context"><strong>“
+                            Capture the opponent's King ””</strong>. The goal
+                        of the game is for each player to try and
+                        checkmate the king of the opponent.
+                        Checkmate is a threat ('check') to the
+                        opposing king which no move can stop.
+                        Don t miss the opportunity.</p>
+                    <h4>Project Details</h4>
+                    <p><span class="field">Platform:</span> BGMI</p>
+                    <p><span class="field">Date:</span> 20th Oct, 2021 7PM to 9PM</p>
+                    <p><span class="field">Type:</span> E-games</p>
+                    <button class="overlay-button"
+                        onclick="window.open('https://forms.gle/TDjdkJv8RjafuXdn8','_target');">Register
+                        Here</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-list">
+            <div id="tech" class="hvrbox" onclick="on('item-1')" style="display: none;">
+                <img src="../events-images/bit by bit poster.png" alt="Event-1" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Bit-by-Bit</strong><br>This is a Hackathon in which you
+                        have to give some solution on the issue based on the Themes.</div>
+                </div>
+            </div>
+            <div id="tech" class="hvrbox" onclick="on('item-2')" style="display: none;">
+                <img src="../events-images/coding contest.png" alt="Event-2" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Code Ignite</strong><br>This is a coding contest based
+                        on algorithms, data structures, and problem-solving.</div>
+                </div>
+            </div>
+            <div id="tech" class="hvrbox" onclick="on('item-3')" style="display: none;">
+                <img src="../events-images/Code&Volts.png" alt="Event-3" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>CODES & VOLTS</strong><br>The event will be a
+                        competition of designing a circuit within a given time duration.</div>
+                </div>
+            </div>
+            <div id="tech" class="hvrbox" onclick="on('item-4')" style="display: none;">
+                <img src="../events-images/ENCODEYUGMA.png" alt="Event-4" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>ENCODEYUGMA</strong><br>This is also coding contest
+                        based on algorithms, data structures, and problem-solving organized by the Codechef
+                        and Geeks For Geeks Student Chapter.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-5')" style="display: none;">
+                <img src="../events-images/Groove.PNG" alt="Event-5" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Groove</strong><br>This is a Dance competition in which
+                        you can showcase you dancing skills.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-6')" style="display: none;">
+                <img src="../events-images/Sketch Hour.png" alt="Event-6" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Sketch Hour</strong><br>This is a Drawing Competition
+                        in which you can show case your Drawing capabilities.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-7')" style="display: none;">
+                <img src="../events-images/Cadance.PNG" alt="Event-7" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Cadence</strong><br>This is a Competition relaed to
+                        Music in which you all can showcase your Singing and several Instrument playing
+                        skills.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-8')" style="display: none;">
+                <img src="../events-images/make a moment.png" alt="Event-8" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Make-a-Moment</strong><br>This is a Photography
+                        competition in which you can showcase your Photography skills.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-9')" style="display: none;">
+                <img src="../events-images/Knock Out.PNG" alt="Event-9" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Knock-Out</strong><br>This is a Debate Competition in
+                        which you can showcase your Debating skills.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-10')" style="display: none;">
+                <img src="../events-images/Antarman.PNG" alt="Event-10" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Antarman</strong><br>This is a Poetry Competition in
+                        which you can showcase your Poem receitation skills.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-11')" style="display: none;">
+                <img src="../events-images/Cinemania.png" alt="Event-11" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Cinemania</strong><br>This is a Video Editing
+                        Competition in
+                        which you can showcase your Editing skills and design some wonderful videos.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-13')" style="display: none;">
+                <img src="../events-images/Euphony.PNG" alt="Event-13" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Euphony</strong><br>This is a Singing Competition in
+                        which you can showcase your singing skills.</div>
+                </div>
+            </div>
+            <div id="cult" class="hvrbox" onclick="on('item-15')" style="display: none;">
+                <img src="../events-images/Moving sprit.PNG" alt="Event-15" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Moving-Spirits</strong><br>This is a Meme Competition
+                        in which you have to showcase your Meme Making skills.</div>
+                </div>
+            </div>
+            <div id="sports" class="hvrbox" onclick="on('item-16')">
+                <img src="../events-images/remaining poster.png" alt="Event-16" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>BGMI</strong><br>Here, comes the most interesting and
+                        popular games among youth BGMI in this you can show case your E-Gaming skills.</div>
+                </div>
+            </div>
+            <div id="sports" class="hvrbox" onclick="on('item-17')">
+                <img src="../events-images/remaining poster 2.png" alt="Event-17" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Clash of Clans</strong><br>Another popular and
+                        interesting game Clash of Clans is here in this showcase your E-Gaming skills.</div>
+                </div>
+            </div>
+            <div id="sports" class="hvrbox" onclick="on('item-18')">
+                <img src="../events-images/chess poster.png" alt="Event-18" class="hvrbox-layer_bottom">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text"><strong>Chess</strong><br>The most popular mind & strategic
+                        game Chess is here.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------- Quiz Section ------------------------------------------------------>
+
+        <!--------------------------------------------------- Contact Section -------------------------------------------------------->
+
+        <div class="container-fluid contact-main pt-5 " id="navcontact" data-aos="fade-right " data-aos-once="true ">
+            <div class="row justify-content-center ">
+                <div class="col-12 text-center mt-2 pb-4 z-bigger ">
+                    <h2>
+                        Contact Us!
+                    </h2>
+                </div>
+            </div>
+            <div id="mail-container ">
+                <div id="line-container ">
+                    <div class="line line-1 "></div>
+                    <div class="line line-4 "></div>
+                    <div class="line line-2 "></div>
+                    <div class="line line-5 "></div>
+                    <div class="line line-3 "></div>
+                </div>
+                <div id="mail "></div>
+            </div>
+            <div class="row justify-content-center p-5 social-ico " data-aos="fade-down " data-aos-once="true ">
+                <div class="social-icons ">
+                    <a href="https://twitter.com/Enyugma_iiitbh?t=ZegB4OEJGIHFk8KKManRgw&s=08" target="_blank "
+                        class="social-icon social-icon--twitter ">
+                        <i class="fab fa-twitter "></i>
+                        <div class="tooltip ">Twitter</div>
+                    </a>
+                    <a href="https://instagram.com/enyugma_iiitbh?utm_medium=copy_link" target="_blank "
+                        class="social-icon social-icon--instagram ">
+                        <i class="fab fa-instagram "></i>
+                        <div class="tooltip ">Instagram</div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/enyugma-iiitbh" target="_blank "
+                        class="social-icon social-icon--linkedin ">
+                        <i class="fab fa-linkedin "></i>
+                        <div class="tooltip ">LinkedIn</div>
+                    </a>
+                    <a href="https://discord.gg/jRd7pAmHKc" target="_blank " class="social-icon social-icon--discord ">
+                        <i class="fab fa-discord "></i>
+                        <div class="tooltip ">Discord</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 text-center ">
+                <p class=mb-0>
+                    Wanna Connect by mail?
+                </p>
+                <br>
+                <h6>Email : enyugma@iiitbh.ac.in</h6>
+                <!-- <h6>Phone : to be released soon</h6> -->
+                <p class="mb-0 small-ph mt-3 justify-content-center ">
+                    <a href=mailto:enyugma@iiitbh.ac.in class="btn btn-approach " id="mail-btn " rel=noopener
+                        target=_blank>Click here for mail</a>
+                </p>
+            </div>
+        </div>
+
+        <!--------------------------------------------------- Contact Section -------------------------------------------------------->
+
+        <!---------------------------------------------------- Waves Section --------------------------------------------------------->
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+        </div>
+
+        <!---------------------------------------------------- Waves Section --------------------------------------------------------->
+    </main>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin=" anonymous "></script>
+    <script src="https://unpkg.com/%40pqina/flip%401.7.7/dist/flip.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/event.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+
+</html>
