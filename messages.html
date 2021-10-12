@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENYUGMA</title>
+    <meta name='subject' content="Techno-Cultural-Fest">
+    <meta name='language' content='ES'>
+    <meta name=description content="ENYUGMA is a celebration of the massive diversity and unity that
+    characterises our
+    country. We intend to provide an enriching experience to the participants by
+    challenging their tech-cognizance, socio-cultural, managerial and leadership skills
+    through this fest. It consists of exciting events, competitions and workshops
+    featuring experts in related fields, focusing on domains like blockchain, machine
+    learning, theatre and animation that recognise the role of the challenges faced by
+    society in our everyday indulgences"">
+    <meta name=author content=" IIIT Bhagalpur">
+    <meta property=og:title content="ENYUGMA">
+    <meta name=keywords
+        content="Enyugma, Enyugma 2k21, Bit by Bit, IIIT Bhagalpur Techno Cultral Sports fest, IIIT Bhagalpur">
+    <meta property=og:description content="is a celebration of the massive diversity and unity that
+    characterises our
+    country. We intend to provide an enriching experience to the participants by
+    challenging their tech-cognizance, socio-cultural, managerial and leadership skills
+    through this fest. It consists of exciting events, competitions and workshops
+    featuring experts in related fields, focusing on domains like blockchain, machine
+    learning, theatre and animation that recognise the role of the challenges faced by
+    society in our everyday indulgences">
+    <meta name='url' content='https://enyugma.iiitbh.ac.in/'>
+    <meta name='identifier-URL' content='https://enyugma.iiitbh.ac.in/'>
+    <meta property=og:url content="index.html">
+    <meta property=og:image content="assets/favi-icon.ico">
+    <meta name='copyright' content='Enyugma Team, Indian Institute of Information Technology, Bhagalpur'>
+    <meta property=og:image:width content=470>
+    <meta property=og:image:height content=246>
+    <meta property=og:site_name content="ENYUGMA">
+    <meta name='coverage' content='Worldwide'>
+    <meta name='distribution' content='Global'>
+    <meta name='rating' content='General'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='no-cache'>
+    <meta http-equiv='imagetoolbar' content='no'>
+    <meta http-equiv='x-dns-prefetch-control' content='off'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--fevicon-->
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap&amp;subset=devanagari,latin-ext"
+        rel=stylesheet>
+
+    <link rel=icon type=image/png href="assets/favi-icon.ico">
+    <link rel=apple-touch-icon href=apple-touch-icon.html>
+    <link rel=apple-touch-icon sizes=72x72 href=apple-touch-icon-72x72.html>
+    <link rel=apple-touch-icon sizes=114x114 href=apple-touch-icon-114x114.html>
+    <link href="https://unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EB77D9BKX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0EB77D9BKX');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.1/vue-resource.min.js"></script>
+    <script defer async src=""></script>
+</head>
+
+<body id=body-element>
+    <canvas id="stars"></canvas>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v9.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="1018967011534840" theme_color="#007bff"
+        logged_in_greeting="Hi! Welcome to Pune's Biggest student driven Hackathon. How can we help you?"
+        logged_out_greeting="Hi! Welcome to Pune's Biggest student driven Hackathon. How can we help you?">
+    </div>
+
+    <!-- FB Chat Plugin ends -->
+    <div class=nav-main>
+        <div class=nav__content>
+            <ul class="nav__list active-nav-menu">
+                <li class=nav__list-item>
+                    <a href=./index.html#navabout id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">About</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=./index.html#navtheme id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Events</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=./index.html#navsponsors id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Sponsors</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navcontact id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="navigation-wrap cbp-af-header">
+        <div class="container-fluid anime-4">
+            <div class=row>
+                <div class="col align-self-center pr-0">
+                    <div class="logo">
+                        <a href=#top class=stick-cursor data-gal=m_PageScroll2id>
+                            <img id="fav-logo" src="img/Logo.png" alt=logo
+                                onclick="window.location.href='https://www.iiitbh.ac.in/';">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-auto align-self-center pl-0" onclick="addNavActive()">
+                    <div class=section>
+                        <div class=nav-but-wrap>
+                            <div class="menu-icon stick-cursor"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---------------------------------------------------- Speaker Section ------------------------------------------------------->
+
+    <div class="container-fluid speaker-main " id="navspeaker ">
+        <div class="container mb-4 ">
+            <h1 class="mb-5 " style="text-align: center; ">Management Messages</h1>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-md-10 d-flex flex-column justify-content-center align-items-center team-details">
+                <h4 class="text-center"> Message from the Director, IIIT Bhagalpur</h4>
+                <br>
+                <div class="d-flex align-items-center team-content">
+                    <img src="team/WhatsApp Image 2021-10-05 at 1.36.37 PM.jpeg" class="team-image"
+                        alt="fest-coordinator">
+                    <p class="text-justify">
+                        Good ideas are always crazy until they’re not!!! – Elon Musk<br><br>
+                        Indian Institute of Information Technology (IIIT) Bhagalpur is proud to present
+                        <strong>ENयुगMA</strong> the Annual Techno-Cultural Festival of the year 2021-22 with tag line
+                        “The Psyche of Unity”. Yes, it is the time of the year where the competent and confident young
+                        minds get united to showcase their innovative and technical ideas. The goal of this festival is
+                        to raise awareness of how the innovations keep getting better and better every day and make sure
+                        every mind is adept with today’s ideas.<br><br>
+                        This year’s festival calls out to every student to participate in the fest and showcase their
+                        extraordinary skills, be it a simple or a crazy idea.<br><br>
+                        The festival will showcase a diverse array of compelling projects and will organize many other
+                        special events. So, if you need a break from your everyday classes or the workload pressure, do
+                        not miss the fun! You may be stunned to find how much there is to learn and also meet new and
+                        exciting people.<br><br>
+                        A huge shout to our amazing team who are devoted to make this Festival a Memory.<br><br>
+                        I look forward to meeting you people in the Festival!!<br><br>
+                        Prof. Arvind Choubey<br>
+                        Director,<br>
+                        IIIT Bhagalpur<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-10 d-flex flex-column justify-content-center align-items-center team-details">
+                <h4 class="text-center"> Message from Fest-Coordinator, IIIT Bhagalpur</h4>
+                <br>
+                <div class="d-flex align-items-center team-content">
+                    <img src="team/Fest-Coordinator.png" class="team-image" alt="fest-coordinator">
+                    <p class="text-justify">
+                        I, on behalf of the Indian Institute of Information Technology (IIIT) Bhagalpur, am happy to
+                        announce that the time has come for the yearly festival, Enyugma: A Techno-Cultural Fest. The
+                        festival has been organized from 18th to 23rd October 2021. We are excited to provide you with
+                        an enriching and memorable time.<br><br>
+                        The festival will organize a variety of special events and loads of fun. There will be technical
+                        contests like Bit-by-Bit Hackathons, Code-Ignite, Codes & Volts, etc, and many more. From the
+                        cultural side, there will be contests on music, photography, animation, dance, art, poetry,
+                        workshops, and so much more. Love playing BGMI or Clash of Clans, we have a contest for the
+                        gamers too. Come and join us to compete, and just have the fun of your life. I invite every
+                        student to come and participate in the festival, not just to learn but to enjoy.<br><br>
+                        Take a break and enjoy the moments. We are determined to make this festival a memory but it
+                        would be possible only if you come and join us.<br><br>
+                        I look forward to meeting you people at the festival.<br><br>
+                        Dr. Prakash Ranjan<br>
+                        Fest Coordinator,<br>
+                        IIIT Bhagalpur<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-10 d-flex flex-column justify-content-center align-items-center team-details">
+                <h4 class="text-center"> Message from the Coordinator, Technical Affairs, IIIT Bhagalpur</h4>
+                <br>
+                <div class="d-flex align-items-center team-content">
+                    <img src="team/WhatsApp Image 2021-10-09 at 11.28.22 AM.jpeg" class="team-image"
+                        alt="fest-coordinator">
+                    <p class="text-justify">
+                        Enyugma provides an intersection of great challenge and great opportunity for the students from
+                        various reputed engineering colleges across the country to showcase their technical skills in
+                        cutting edge technology and winning attractive prizes in fierce competitions. Be it a designer,
+                        coder, developer or miner, we offer you an opportunity and a platform to perform. Don’t limit
+                        yourself. Explore something new.<br><br>
+
+                        Enyugma is contemplating a plenty of events such as Bit-by-Bit Hackathon which is the ultimate
+                        test of skills and endurance, Code-Ignite and encodeyugma the test of problem solving and
+                        optimisation, Codes & Volts. All these competitions will help you in taking up more challenging
+                        and competitive projects ahead in your journey.<br><br>
+
+                        I invite you all to come and participate in the festival, not just to learn but to enjoy. Take a
+                        break and appreciate these moments. I look forward to meeting you people at the
+                        festival.<br><br>
+                        Dr. Gaurav kumar<br>
+                        Coordinator, Technical Affairs<br>
+                        IIIT Bhagalpur<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-10 d-flex flex-column justify-content-center align-items-center team-details">
+                <h4 class="text-center"> Message from the Coordinator, Cultural Affairs, IIIT Bhagalpur</h4>
+                <br>
+                <div class="d-flex align-items-center team-content">
+                    <img src="team/WhatsApp Image 2021-10-06 at 9.09.38 AM.jpeg" class="team-image"
+                        alt="fest-coordinator">
+                    <p class="text-justify">
+                        An entire gamut of activities is organized by Enyugma to unleash the talent that exudes from the
+                        budding student managers. The Annual Cultural Festival of IIIT Bhagalpur, Enyugma where the
+                        artists of national repute are invited to present a cultural festival, which is enjoyed by the
+                        guests, students, faculty, staff and the jam-packed virtual audience. Enyugma is an annual
+                        Five-day extravaganza of art, culture and technical sphere.<br><br>
+                        Participation in cultural activities results in enhancement of the personal skills and
+                        experiences like confidence; self-presentation; teamwork and collaboration; time management and
+                        organizational skills; self-awareness; self-discipline; open mindedness to move beyond
+                        boundaries and experiment with different ideas; communication skills; the ability to cope with
+                        criticism and learn from them resulting in a whole new developed, changed and an improved
+                        person.<br><br>
+                        I invite all of you to participate in the fest, looking forward to meeting you in
+                        person.<br><br>
+                        Dr Sanjay Kumar<br>
+                        Coordinator, Cultural Affairs<br>
+                        IIIT Bhagalpur<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-10 d-flex flex-column justify-content-center align-items-center team-details">
+                <h4 class="text-center"> Message from the Coordinator, Sports Affairs, IIIT Bhagalpur</h4>
+                <br>
+                <div class="d-flex align-items-center team-content">
+                    <img src="team/WhatsApp Image 2021-10-07 at 6.02.42 PM.jpeg" class="team-image"
+                        alt="fest-coordinator" id="change1">
+                    <p class="text-justify">
+                        Enyugma as the Annual Techno-Cultural Fest of IIIT Bhagalpur shall be virtual playground for
+                        online Gamers. The beginning of the 21st century saw a new horizon for channeling inner
+                        sportsmanship into another dimension. As the new generations are coming up with new enthusiasm,
+                        slowly online gaming is coming to the mainstream and online gaming is becoming both technical
+                        and cultural event.<br><br>
+                        Enyugma is going to host three events that are currently frontrunners in popularity from three
+                        different aspects of the online gaming genres: the traditional but evergreen Chess, the
+                        enigmatic strategy game Clash of Clans, and modern phenomena Battlegrounds Mobile India.
+                        Participants from different corners are expected to be engaged in fiercely competitive events
+                        for five days.<br><br>
+
+                        Dr. Himadri Nayak<br>
+                        Coordinator, Sports Affairs<br>
+                        IIIT Bhagalpur<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-10 d-flex flex-column justify-content-center align-items-center team-details">
+                <h4 class="text-center"> Message from the Coordinator, Student Affairs, IIIT Bhagalpur</h4>
+                <br>
+                <div class="d-flex align-items-center team-content">
+                    <img src="team/WhatsApp Image 2021-10-07 at 6.06.33 PM.jpeg" class="team-image"
+                        alt="fest-coordinator">
+                    <p class="text-justify">
+                        ENYUGMA-2021 is the annual techno-cultural festival of IIIT Bhagalpur. It is the best platform
+                        provided to the students of all institutions of the country to present their technical and
+                        cultural skills on various levels. The techno-cultural festival continuously promotes better
+                        learning process, creates awareness among the students about the industry and academia
+                        environment, provides real practical knowledge to students and builds self-confidence in
+                        students to become an industry leader or entrepreneur. The customs we follow, the festivals we
+                        celebrate and the moments of life we enjoy together is what constitutes their culture. We, in
+                        India, love to celebrate the joys of life with each other harmoniously. Although we may belong
+                        to different caste and culture, we believe in spirit of brotherhood and cooperation.<br><br>
+                        In order to continue this everlasting fiesta, ENYUGMA-2021 extends a heart-warming welcome to
+                        all of you in this techno-cultural event. This fest will be great platform for sharing our
+                        technical knowledge and promoting our culture and traditions and to experience the diverse
+                        social and cultural aspect of our motherland.<br><br>
+
+                        Dr. Dheeraj Kr. Sinha<br>
+                        Coordinator, Student Affairs<br>
+                        IIIT Bhagalpur<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------------- Speaker Section ------------------------------------------------------->
+
+
+    <!--------------------------------------------------- Contact Section -------------------------------------------------------->
+
+    <div class="container-fluid contact-main pt-5 " id="navcontact" data-aos="fade-right " data-aos-once="true ">
+        <div class="row justify-content-center ">
+            <div class="col-12 text-center mt-2 pb-4 z-bigger ">
+                <h2>
+                    Contact Us!
+                </h2>
+            </div>
+        </div>
+        <div id="mail-container ">
+            <div id="line-container ">
+                <div class="line line-1 "></div>
+                <div class="line line-4 "></div>
+                <div class="line line-2 "></div>
+                <div class="line line-5 "></div>
+                <div class="line line-3 "></div>
+            </div>
+            <div id="mail "></div>
+        </div>
+        <div class="row justify-content-center p-5 social-ico " data-aos="fade-down " data-aos-once="true ">
+            <div class="social-icons ">
+                <a href="https://twitter.com/Enyugma_iiitbh?t=ZegB4OEJGIHFk8KKManRgw&s=08" target="_blank "
+                    class="social-icon social-icon--twitter ">
+                    <i class="fab fa-twitter "></i>
+                    <div class="tooltip ">Twitter</div>
+                </a>
+                <a href="https://instagram.com/enyugma_iiitbh?utm_medium=copy_link" target="_blank "
+                    class="social-icon social-icon--instagram ">
+                    <i class="fab fa-instagram "></i>
+                    <div class="tooltip ">Instagram</div>
+                </a>
+                <a href="https://www.linkedin.com/company/enyugma-iiitbh" target="_blank "
+                    class="social-icon social-icon--linkedin ">
+                    <i class="fab fa-linkedin "></i>
+                    <div class="tooltip ">LinkedIn</div>
+                </a>
+                <a href="https://discord.gg/jRd7pAmHKc" target="_blank " class="social-icon social-icon--discord ">
+                    <i class="fab fa-discord "></i>
+                    <div class="tooltip ">Discord</div>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 text-center ">
+            <p class=mb-0>
+                Wanna Connect by mail?
+            </p>
+            <br>
+            <h6>Email : enyugma@iiitbh.ac.in</h6>
+            <!-- <h6>Phone : to be released soon</h6> -->
+            <p class="mb-0 small-ph mt-3 justify-content-center ">
+                <a href=mailto:enyugma@iiitbh.ac.in class="btn btn-approach " id="mail-btn " rel=noopener
+                    target=_blank>Click here for mail</a>
+            </p>
+        </div>
+    </div>
+
+    <!--------------------------------------------------- Contact Section -------------------------------------------------------->
+
+    <!---------------------------------------------------- Waves Section --------------------------------------------------------->
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+    </svg>
+    </div>
+
+    <!---------------------------------------------------- Waves Section --------------------------------------------------------->
+    </main>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin=" anonymous "></script>
+    <script src="https://unpkg.com/%40pqina/flip%401.7.7/dist/flip.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/snow.js"></script>
+</body>
+
+</html>
