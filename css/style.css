@@ -1842,7 +1842,7 @@ a.btn-approach:hover:before {
     }
     .sponsor-card {
         border-radius: 5px;
-        /* height: 100px; */
+        height: 120px;
         transition: 0.6s;
     }
     .sponsor-card:hover {
