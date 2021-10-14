@@ -42,7 +42,7 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
-        document.getElementById("fav-logo").style.transform = "scale(1.2)";
+        document.getElementById("fav-logo").style.transform = "scale(1.1)";
     } else {
         document.getElementById("fav-logo").style.transform = "scale(1.0)";
     }
@@ -53,4 +53,12 @@ const changeFaqIcon = (id) => {
         document.getElementById(`${id}-qna-icon`).innerHTML = "-";
     else
         document.getElementById(`${id}-qna-icon`).innerHTML = "+";
+}
+
+function on(id) {
+    document.getElementById(id).style.display = "block";
+}
+
+function off(id) {
+    document.getElementById(id).style.display = "none";
 }

@@ -3137,11 +3137,16 @@ body.load-anime .anime-4 {
     padding: 2%;
 }
 
+
 @media only screen and (max-width: 999px) {
     .sponsor-content-main {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .payment-overlay {
+        width: 80%;
+        margin: 20% auto;
     }
     .ca-poster {
         width: 70%;
@@ -3163,6 +3168,10 @@ body.load-anime .anime-4 {
     .sponsor-content-main {
         display: flex;
         flex-direction: row;
+    }
+    .payment-overlay {
+        width: 80%;
+        margin: 8% auto;
     }
     .ca-poster {
         width: 40%;
