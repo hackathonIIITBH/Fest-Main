@@ -971,7 +971,6 @@ iframe.devfolio-button-iframe {
 
 @media(max-width:600px) {
     .landing-logo {
-        width: 100%;
         height: 100%;
         margin-bottom: 30px;
     }
@@ -1010,7 +1009,11 @@ iframe.devfolio-button-iframe {
         width: 36px !important;
     }
 }
-
+@media(max-width: 992px) {
+    .landing-logo {
+        width: 120%;
+    }
+}
 
 /* ------------------------------------------- Home Section --------------------------------------------- */
 
