@@ -1,0 +1,10 @@
+@media(max-width:575px){
+    .mobile{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .col-lg-3{
+    width: 50%;
+    } 
+}
