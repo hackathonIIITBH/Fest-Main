@@ -1029,7 +1029,7 @@ iframe.devfolio-button-iframe {
   }
   .marquee-wrapper .marquee-block{
     --total-marquee-items:5;
-    height: 150px;
+    height: 240px;
     width: calc(250px * (var(--total-marquee-items)));
     overflow: hidden;
     box-sizing: border-box;
@@ -1040,12 +1040,12 @@ iframe.devfolio-button-iframe {
   }
   .marquee-inner{
     display: block;
-    width: 200%;
+    width: 240%;
     position: absolute;
   }
   .marquee-inner p{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 24px;
     font-family: cursive;
   }
   .marquee-inner.to-left{
@@ -1058,7 +1058,7 @@ iframe.devfolio-button-iframe {
     margin: 0 10px;
     float: left;
     transition: all .2s ease-out;
-    background:#040679be;
+    background:#15e71fbe;
   }
   @keyframes marqueeLeft{
     0% {
