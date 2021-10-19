@@ -1028,7 +1028,7 @@ iframe.devfolio-button-iframe {
     width:50%;
   }
   .marquee-wrapper .marquee-block{
-    --total-marquee-items:5;
+    --total-marquee-items:6;
     height: 240px;
     width: calc(250px * (var(--total-marquee-items)));
     overflow: hidden;
