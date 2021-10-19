@@ -1057,12 +1057,12 @@ iframe.devfolio-button-iframe {
     display: inline;
     margin: 0 10px;
     float: left;
-    transition: all .2s ease-out;
+    transition: all .4s ease-out;
     background:#15e71fbe;
   }
   @keyframes marqueeLeft{
     0% {
-      left: 0;
+      left: 100%;
     }
     100% {
       left: -100%;
@@ -1073,7 +1073,7 @@ iframe.devfolio-button-iframe {
       left: -100%; 
     }
     100% {
-     left: 0; 
+     left: 100%; 
     }
   }
 
