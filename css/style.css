@@ -3195,9 +3195,6 @@ body.load-anime .anime-4 {
     margin-top: 3%;
 }
 
-.sponsor-content-main {    
-    padding: 2%;
-}
 
 
 @media only screen and (max-width: 999px) {
@@ -3215,7 +3212,7 @@ body.load-anime .anime-4 {
         height: 100%;
     }
     .star-poster {
-        width: 70%;
+        width: 100%;
         height: 100%;
     }
     .btn-sponsor {
@@ -3241,11 +3238,8 @@ body.load-anime .anime-4 {
         margin-right: 5%;
     }
     .star-poster {
-        width: 48%;
+        width: 46%;
         height: 40%;
-        margin-right: 5%;
-        margin-top: auto;
-        margin-bottom: auto;
     }
     .btn-sponsor-1 {
         max-width: 30%;
