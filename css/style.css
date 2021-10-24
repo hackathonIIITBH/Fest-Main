@@ -1048,7 +1048,7 @@ iframe.devfolio-button-iframe {
     font-family: cursive;
   }
   .marquee-inner.to-left{
-    animation: marqueeLeft 25s linear alternate;
+    animation: marqueeLeft 25s linear infinite;
   }
   .marquee-item{
     width: 230px;
