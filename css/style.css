@@ -1069,7 +1069,49 @@ iframe.devfolio-button-iframe {
     100% {
       left: 0%;
     }
-  }  
+  } 
+  @media(min-width: 336px) and (max-width: 512px)
+  {
+      @keyframes marqueeLeft {
+        0% {
+            left: 0;
+          }
+          50% {
+              left: 30%
+          }
+          100% {
+            left: 0%;
+          }
+      }
+  } 
+  @media(min-width: 512px) and (max-width: 736px)
+  {
+      @keyframes marqueeLeft {
+        0% {
+            left: 0;
+          }
+          50% {
+              left: 48%
+          }
+          100% {
+            left: 0%;
+          }
+      }
+  }
+  @media(min-width: 736px) and (max-width: 992px)
+  {
+      @keyframes marqueeLeft {
+        0% {
+            left: 0;
+          }
+          50% {
+              left: 64%
+          }
+          100% {
+            left: 0%;
+          }
+      }
+  }
 
 /* ------------------------------------------- Ribbon Section ------------------------------------------- */
 
